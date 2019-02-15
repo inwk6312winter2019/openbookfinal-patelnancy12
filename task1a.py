@@ -48,9 +48,11 @@ def character_word_count(words):
 
 
 def starts_with_vow():
+  t = ("a", "e" ,"i", "o", "u")
   
-#print(count_the_article())
-#sorted_words()
-#unique_words()
+print(count_the_article())
+sorted_words()
+unique_words()
 
 character_word_count(words)
+
