@@ -27,5 +27,15 @@ def count_the_article():
   words_d = len(total.keys())
   print("Total Words : " + str(words_d))
 
+def sorted_words():
+  sorted_words = []
+  fout = open("Book2.txt",'r')
+  r=fout.readlines()
+ # print(sorted(r, key=len))
+  r.sort(key=len)
+  print(r)
+
+
 print(count_the_article())
+sorted_words()
 #unique_words()
