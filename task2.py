@@ -1,4 +1,4 @@
-# to complete task 2 of open book
+# to complete task 2 of open book final exam
 fopen = open("access.log","r")
 fget = open("get.log","w")
 fpost = open("post.log","w")
