@@ -35,7 +35,22 @@ def sorted_words():
   r.sort(key=len)
   print(r)
 
+def character_word_count(words):
+ # fout = open("Book3.txt","r")
+ # r = fout.readlines()
+  char_word_count = dict()
+  for word in words:
+    if word not in char_word_count:
+      char_word_count[word] = 1
+    else:
+      char_word_count[word] += 1
+  print(char_word_count)
 
-print(count_the_article())
-sorted_words()
+
+def starts_with_vow():
+  
+#print(count_the_article())
+#sorted_words()
 #unique_words()
+
+character_word_count(words)
