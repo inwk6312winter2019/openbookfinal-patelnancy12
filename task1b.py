@@ -2,8 +2,7 @@
 import string
  
 def frequent_words():
-  str1 = []
-
+  
   fout = open("Book1.txt",'r')
   fout = open("Book2.txt", 'r')
   fout = open("Book3.txt", 'r')
